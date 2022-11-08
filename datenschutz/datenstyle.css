@@ -1,45 +1,44 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata&family=Space+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 
-* {
-  box-sizing: border-box;
-}
-
 /* Menu bereich */
 .menu {
-    font-family: inconsolata;
-    font-weight: normal;
-  }
-  
-  ul {
-    list-style-type: none;
-    margin: 50px;
-    padding: 0;
-    overflow: hidden;
-    text-align: center;
-  }
-  
-  li {
-    display: inline;
-    text-align: center;
-  }
-  
-  li a {
-    text-decoration: none;
-    color: rgb(60, 60, 60);
-    padding: 8px 18px;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
+  font-family: inconsolata;
+  font-weight: normal;
+}
 
+.menu ul {
+  margin: 50px;
+  padding: 0;
+  text-align: center;
+}
 
+.menu li {
+  display: inline;
+  text-align: center;
+}
 
+.menu-links {
+  color: rgb(60, 60, 60);
+  padding: 8px 18px;
+  text-decoration: none;
 
+  background-image: linear-gradient(#5a6fd9, #5a7cd9);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 50%;
+  background-repeat: no-repeat;
+  transition: background-size 0.2s ease-in-out;
+}
 
+.menu-links:hover {
+  background-size: 80% 0.1em;
+}
 
-
+.social-link img {
+  max-width: 1.4em;
+  padding-left: 15px;
+}
 
 
 /* Datenschutz Bereich */
