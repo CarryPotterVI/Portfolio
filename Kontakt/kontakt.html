@@ -38,7 +38,7 @@
 
 
         <!-- Form Bereich -->
-        <form action="submit.html" class="decor">
+        <form action="submit.html" class="decor" netlify="true">
             <div class="form-left-decoration"></div>
             <div class="form-right-decoration"></div>
             <div class="circle"></div>
@@ -47,10 +47,10 @@
                 <div id="h1">
                     <h1>Contact</h1>
                 </div>
-                <input type="text" placeholder="Name">
-                <input type="email" placeholder="Email">
-                <textarea placeholder="Message..." rows="5"></textarea>
-                <button type="submit" href="#">Submit</button>
+                <input type="text" placeholder="Name" name="name">
+                <input type="email" placeholder="Email" name="email">
+                <textarea placeholder="Message..." rows="5" name="text"></textarea>
+                <button type="submit" href="#">Send</button>
             </div>
         </form>
     </div>
