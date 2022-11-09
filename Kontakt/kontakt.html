@@ -38,7 +38,12 @@
 
 
         <!-- Form Bereich -->
-        <form action="submit.html" class="decor" netlify="true">
+        <form action="" class="decor" netlify="true" netlify-honeypot="bot-field" >
+            <p class="hidden">
+                <label>
+                  Don’t fill this out if you’re human: <input name="bot-field" />
+                </label>
+              </p>
             <div class="form-left-decoration"></div>
             <div class="form-right-decoration"></div>
             <div class="circle"></div>
