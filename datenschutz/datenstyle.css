@@ -1,6 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata&family=Space+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 
+/* Die Überschrift */
+.logo-text {
+  font-family: "Interstate Condensed Bold", "Interstate Condensed Bold",
+    sans-serif;
+  text-align: center;
+  line-height: 4;
+  font-size: 50px;
+  font-weight: normal;
+  height: calc(20px + 100px);
+}
+
+.logo-link {
+  text-decoration: none;
+  color: black;
+}
+
+.logo-link:hover {
+  text-decoration: none;
+  opacity: 0.7;
+  transition: opacity 600ms ease;
+}
+
+
 /* Menu bereich */
 .menu {
   font-family: inconsolata;
